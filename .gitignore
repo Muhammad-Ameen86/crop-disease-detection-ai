@@ -1,0 +1,26 @@
+# Python virtual env
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# ML models
+*.h5
+*.pt
+*.pth
+*.pkl
+
+# datasets
+dataset/
+data/
+
+# notebooks
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# system
+.DS_Store
