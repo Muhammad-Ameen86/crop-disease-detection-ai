@@ -6,7 +6,7 @@
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.111-green?style=flat-square&logo=fastapi)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.x-red?style=flat-square&logo=pytorch)
 ![Accuracy](https://img.shields.io/badge/AlexNet%20Accuracy-97.96%25-brightgreen?style=flat-square)
-![Render](https://img.shields.io/badge/Deployed%20on-Render-46E3B7?style=flat-square)
+
 
 ---
 
@@ -93,7 +93,7 @@ crop-disease-detection-ai/
 │   ├── comparison_graph.m    ← MATLAB visualization
 │   └── professional_accuracy_chart.png
 ├── compress_models.py        ← model compression utility
-├── render.yaml               ← Render deployment config
+├── railway.toml               ← Railway deployment config
 ├── requirements.txt
 └── README.md
 ```
@@ -198,14 +198,14 @@ python compress_models.py
 | API | FastAPI, Uvicorn |
 | Visualization | Matplotlib, MATLAB |
 | Notebook | Jupyter |
-| Deployment | Render |
+| Deployment | Railway |
 | Version Control | Git, GitHub |
 
 ---
 
 ## Deployment
 
-This project is configured for **Render** deployment via `render.yaml`.
+This project is configured for **Railway** deployment via `railway.toml`.
 
 Start command:
 ```bash
